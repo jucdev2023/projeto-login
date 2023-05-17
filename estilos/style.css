@@ -33,7 +33,7 @@ main {
     transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
-    height: 515px;
+    height: 515 px;
     border-radius: 20px;
     overflow: hidden;
     
@@ -73,12 +73,38 @@ form > .campo {
     width: 100% ;
     display: block;
     height: 47px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
+    border: 2px solid  #9c103c;
 }
 .campo > label {
 
     display:none;
+}
+
+.campo > span {
+    color: white;
+    width: 40px;
+    padding: 5px;
+    font-size: 2em;
+}
+
+
+.campo > input {
+    background-color: #411422;
+    font-size: 1em;
+    
+     width: calc(100% - 44px);
+     transform: translateY(-40px);
+     height: 100%;
+     border: 0px;
+     border-radius: 8px;
+     padding:5px;
+     margin-left: 40px;
+}
+
+.campo  > input:focus-within {
+    background-color: white;
 }
 
  form > input[type=submit] {
@@ -94,7 +120,7 @@ form > .campo {
 }
 
 form > input[type=submit]:hover {
-    background-color: #75233d;
+    background-color: #b3637c;
 
 }
 form > a.button  {
@@ -104,9 +130,9 @@ form > a.button  {
     height: 40px;
     padding-top:  5px;
     margin-top: 5px;
-    background-color: #a01e47 ;
+    background-color: #ad355df3 ;
     color: white;
-    border: 1px solid #680524;
+    border: 1px solid #882947;
     border-radius: 6px;
     text-decoration: none;
     
@@ -114,6 +140,7 @@ form > a.button  {
 form > a.button:hover {
     background-color:#c7114b;
 
-form > a.button > i {
+}
+.button > span {
     font-size: 0.8em;
 }

@@ -21,6 +21,7 @@ pequenas telas: até 600px
     
     #login {
         width: 80vw;
+        height: 280px;
     }
     #login > #img {
         float: left;
@@ -40,6 +41,7 @@ pequenas telas: até 600px
 @media screen and (min-width: 992px) {
     #login {
         width: 950px;
+        height: 350px;
 
     }
     #login > #img {
