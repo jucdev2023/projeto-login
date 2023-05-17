@@ -38,12 +38,15 @@ main {
     overflow: hidden;
     
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 #login > #img {
     display: block;
     background: #c4594b url('../imagens/pexels-moose-photos-1038002.jpg');
     height: 200px;
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left bottom;
